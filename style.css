@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.CRITICAL {
+    background-color: darkred;
+    color: white;
+}
+
+.MAJOR {
+    background-color: orange;
+    color: black;
+}
+
+.INFO {
+    background-color: lightgreen;
+    color: black;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.expand {
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+}
+
+.child-row {
+    font-style: italic;
+}
